@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC 
+      "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" 
+      "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="hust" namespace="/" extends="struts-default">
+		<action name="login" class="edu.hust.action.LoginAction" method="login">
+			<result name="success">/tableOperation.jsp</result>
+			<result name="input">/index.jsp</result>
+		</action>
+		
+		<action name="operateSelect" class="edu.hust.action.TableOperateAction" method="select">
+			<result name="success">/tableOperation.jsp</result>
+			<result name="input">/tableOperation.jsp</result>
+		</action>
+		
+		<action name="operateAdd" class="edu.hust.action.TableOperateAction" method="add">
+			<result name="success">/tableOperation.jsp</result>
+			<result name="input">/tableOperation.jsp</result>
+		</action>
+		
+		<action name="operateModify" class="edu.hust.action.TableOperateAction" method="modify">
+			<result name="success">/tableOperation.jsp</result>
+			<result name="input">/tableOperation.jsp</result>
+		</action>
+		
+		<action name="operateDelete" class="edu.hust.action.TableOperateAction" method="delete">
+			<result name="success">/tableOperation.jsp</result>
+			<result name="input">/tableOperation.jsp</result>
+		</action>
+			
+	</package>
+	
+</struts>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="DBCourse"
+  id="myeclipse.1445213579934"
+  context-root="/DBCourse"
+  j2ee-spec="5.0"
+  archive="DBCourse.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
